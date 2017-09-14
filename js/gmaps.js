@@ -1,6 +1,5 @@
 function initMap() {
-        var myLatLng = {lat: 13.075682, lng: 80.237969};
-
+        var myLatLng = {lat: 13.0755457, lng: 80.2357695};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 17,
           center: myLatLng,
@@ -14,6 +13,6 @@ function initMap() {
         var marker = new google.maps.Marker({
           position: myLatLng,
           map: map,
-          title: 'Hello World!'
+          title: 'DeviScan!'
         });
       }
